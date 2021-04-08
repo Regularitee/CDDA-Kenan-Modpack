@@ -3,7 +3,7 @@
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "id": "meat_shoggoth",
-    "name": { "str": "shoggoth heart", "str_pl": "shoggoth meats" },
+    "name": { "str": "shoggoth flesh", "str_pl": "shoggoth flesh" },
     "description": "The heart of a shoggoth. You could eat it to master the beast's morphogenic prowess, or you could use it to 'master' the beast in another way.",
     "weight": "1000 g",
     "symbol": ")",
@@ -126,8 +126,7 @@
     "weight": "300 g",
     "volume": "750 ml",
     "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
-    "max_charges": 48,
-    "initial_charges": 48,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 100 } } ],
     "relic_data": { "charge_info": { "regenerate_ammo": true, "recharge_type": "periodic", "time": "1 h" } }
   },
   {
